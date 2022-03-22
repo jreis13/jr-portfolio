@@ -23,13 +23,13 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Joao Francisco Reis</title>
+    <title>João Francisco Reis</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Joao</a>
+        <a href="#" class="nav__logo">João</a>
 
         <div class="nav__menu">
           <ul class="nav__list">
@@ -56,6 +56,12 @@
                 <i class="bx bx-briefcase-alt-2"></i>
               </a>
             </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-comment-detail"></i>
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -71,7 +77,7 @@
         <div class="home__container container grid">
           <div class="home__data">
             <span class="home__greeting">Hello, I'm</span>
-            <h1 class="home__name">Joao Francisco Reis</h1>
+            <h1 class="home__name">João Francisco Reis</h1>
             <h3 class="home__education">Junior Frontend Developer</h3>
 
             <div class="home__buttons">
@@ -348,11 +354,104 @@
         </div>
       </section>
 
-      <!--=============== TESTIMONIALS ===============-->
-      <section class="testimonial section"></section>
-
       <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Write me for any type of inquiry</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data"
+                  >joaofranciscoreis13@outlook.com</span
+                >
+
+                <a
+                  href="mailto:joaofranciscoreis13@outlook.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">+351 926 050 088</span>
+
+                <a
+                  href="https://api.whatsapp.com/send?phone=351926050088&text=Hello, I'd like to get in touch with you."
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-messenger contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data">João Reis</span>
+
+                <a
+                  href="https://m.me/jreis13"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input
+                  type="text"
+                  placeholder="Type your name"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input
+                  type="email"
+                  placeholder="Type your email"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your message"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button class="button">Send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--=============== FOOTER ===============-->
